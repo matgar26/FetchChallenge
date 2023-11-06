@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1FF8432AF6E93600E80E8D /* FetchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1FF8422AF6E93600E80E8D /* FetchImageView.swift */; };
+		3C1FF8452AF6EA7E00E80E8D /* MealItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1FF8442AF6EA7E00E80E8D /* MealItemRow.swift */; };
+		3C1FF8482AF6F01A00E80E8D /* RedactedPlaceholderHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1FF8472AF6F01A00E80E8D /* RedactedPlaceholderHelpers.swift */; };
 		3C5FCFC02AF6A3B8001810BB /* FetchChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFBF2AF6A3B8001810BB /* FetchChallengeApp.swift */; };
-		3C5FCFC22AF6A3B8001810BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFC12AF6A3B8001810BB /* ContentView.swift */; };
-		3C5FCFC42AF6A3B8001810BB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFC32AF6A3B8001810BB /* Item.swift */; };
 		3C5FCFC62AF6A3BA001810BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCFC52AF6A3BA001810BB /* Assets.xcassets */; };
 		3C5FCFC92AF6A3BA001810BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCFC82AF6A3BA001810BB /* Preview Assets.xcassets */; };
 		3C5FCFD32AF6A3BA001810BB /* FetchChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFD22AF6A3BA001810BB /* FetchChallengeTests.swift */; };
 		3C5FCFDD2AF6A3BA001810BB /* FetchChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFDC2AF6A3BA001810BB /* FetchChallengeUITests.swift */; };
 		3C5FCFDF2AF6A3BA001810BB /* FetchChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFDE2AF6A3BA001810BB /* FetchChallengeUITestsLaunchTests.swift */; };
+		3C5FCFF12AF6A45B001810BB /* MealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFF02AF6A45B001810BB /* MealsListView.swift */; };
+		3C5FCFF32AF6A465001810BB /* MealsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFF22AF6A465001810BB /* MealsListViewModel.swift */; };
+		3C5FCFF62AF6A52C001810BB /* MealItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFF52AF6A52C001810BB /* MealItem.swift */; };
+		3C5FCFF82AF6A565001810BB /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFF72AF6A565001810BB /* MealDetail.swift */; };
+		3C5FCFFB2AF6A5E0001810BB /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFFA2AF6A5E0001810BB /* ApiError.swift */; };
+		3C5FCFFD2AF6A5E9001810BB /* ErrorDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFFC2AF6A5E9001810BB /* ErrorDTO.swift */; };
+		3C5FD0002AF6A61C001810BB /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCFFF2AF6A61C001810BB /* ApiRequest.swift */; };
+		3C5FD0022AF6A634001810BB /* ApiRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD0012AF6A634001810BB /* ApiRequestClient.swift */; };
+		3C5FD0042AF6A65E001810BB /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD0032AF6A65E001810BB /* HttpMethod.swift */; };
+		3C5FD0062AF6A6E7001810BB /* NetworkingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD0052AF6A6E7001810BB /* NetworkingConfig.swift */; };
+		3C5FD0092AF6A898001810BB /* GetMealsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD0082AF6A898001810BB /* GetMealsRequest.swift */; };
+		3C5FD00B2AF6A8AA001810BB /* GetMealDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD00A2AF6A8AA001810BB /* GetMealDetailsRequest.swift */; };
+		3C5FD00D2AF6ADCC001810BB /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD00C2AF6ADCC001810BB /* MealDetailView.swift */; };
+		3C5FD00F2AF6C390001810BB /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FD00E2AF6C390001810BB /* MealDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C1FF8422AF6E93600E80E8D /* FetchImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageView.swift; sourceTree = "<group>"; };
+		3C1FF8442AF6EA7E00E80E8D /* MealItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemRow.swift; sourceTree = "<group>"; };
+		3C1FF8472AF6F01A00E80E8D /* RedactedPlaceholderHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedPlaceholderHelpers.swift; sourceTree = "<group>"; };
 		3C5FCFBC2AF6A3B8001810BB /* FetchChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5FCFBF2AF6A3B8001810BB /* FetchChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchChallengeApp.swift; sourceTree = "<group>"; };
-		3C5FCFC12AF6A3B8001810BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3C5FCFC32AF6A3B8001810BB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3C5FCFC52AF6A3BA001810BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5FCFC82AF6A3BA001810BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C5FCFCE2AF6A3BA001810BB /* FetchChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +62,20 @@
 		3C5FCFD82AF6A3BA001810BB /* FetchChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5FCFDC2AF6A3BA001810BB /* FetchChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchChallengeUITests.swift; sourceTree = "<group>"; };
 		3C5FCFDE2AF6A3BA001810BB /* FetchChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C5FCFF02AF6A45B001810BB /* MealsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListView.swift; sourceTree = "<group>"; };
+		3C5FCFF22AF6A465001810BB /* MealsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListViewModel.swift; sourceTree = "<group>"; };
+		3C5FCFF52AF6A52C001810BB /* MealItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItem.swift; sourceTree = "<group>"; };
+		3C5FCFF72AF6A565001810BB /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		3C5FCFFA2AF6A5E0001810BB /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		3C5FCFFC2AF6A5E9001810BB /* ErrorDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDTO.swift; sourceTree = "<group>"; };
+		3C5FCFFF2AF6A61C001810BB /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		3C5FD0012AF6A634001810BB /* ApiRequestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestClient.swift; sourceTree = "<group>"; };
+		3C5FD0032AF6A65E001810BB /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		3C5FD0052AF6A6E7001810BB /* NetworkingConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingConfig.swift; sourceTree = "<group>"; };
+		3C5FD0082AF6A898001810BB /* GetMealsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMealsRequest.swift; sourceTree = "<group>"; };
+		3C5FD00A2AF6A8AA001810BB /* GetMealDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMealDetailsRequest.swift; sourceTree = "<group>"; };
+		3C5FD00C2AF6ADCC001810BB /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		3C5FD00E2AF6C390001810BB /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1FF8462AF6F00A00E80E8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3C1FF8472AF6F01A00E80E8D /* RedactedPlaceholderHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3C5FCFB32AF6A3B8001810BB = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +134,12 @@
 		3C5FCFBE2AF6A3B8001810BB /* FetchChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				3C1FF8462AF6F00A00E80E8D /* Helpers */,
+				3C5FCFEB2AF6A40B001810BB /* Main */,
+				3C5FCFEE2AF6A41F001810BB /* Components */,
+				3C5FCFED2AF6A418001810BB /* Networking */,
+				3C5FCFEC2AF6A412001810BB /* Models */,
 				3C5FCFBF2AF6A3B8001810BB /* FetchChallengeApp.swift */,
-				3C5FCFC12AF6A3B8001810BB /* ContentView.swift */,
-				3C5FCFC32AF6A3B8001810BB /* Item.swift */,
 				3C5FCFC52AF6A3BA001810BB /* Assets.xcassets */,
 				3C5FCFC72AF6A3BA001810BB /* Preview Content */,
 			);
@@ -128,6 +169,90 @@
 				3C5FCFDE2AF6A3BA001810BB /* FetchChallengeUITestsLaunchTests.swift */,
 			);
 			path = FetchChallengeUITests;
+			sourceTree = "<group>";
+		};
+		3C5FCFEB2AF6A40B001810BB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCFF42AF6A46E001810BB /* MealDetails */,
+				3C5FCFEF2AF6A446001810BB /* MealsList */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C5FCFEC2AF6A412001810BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCFF52AF6A52C001810BB /* MealItem.swift */,
+				3C5FCFF72AF6A565001810BB /* MealDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C5FCFED2AF6A418001810BB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FD0072AF6A851001810BB /* AppRequests */,
+				3C5FCFFE2AF6A609001810BB /* ApiRequest */,
+				3C5FCFF92AF6A5C7001810BB /* ApiError */,
+				3C5FD0052AF6A6E7001810BB /* NetworkingConfig.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3C5FCFEE2AF6A41F001810BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C1FF8422AF6E93600E80E8D /* FetchImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C5FCFEF2AF6A446001810BB /* MealsList */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCFF02AF6A45B001810BB /* MealsListView.swift */,
+				3C5FCFF22AF6A465001810BB /* MealsListViewModel.swift */,
+				3C1FF8442AF6EA7E00E80E8D /* MealItemRow.swift */,
+			);
+			path = MealsList;
+			sourceTree = "<group>";
+		};
+		3C5FCFF42AF6A46E001810BB /* MealDetails */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FD00C2AF6ADCC001810BB /* MealDetailView.swift */,
+				3C5FD00E2AF6C390001810BB /* MealDetailViewModel.swift */,
+			);
+			path = MealDetails;
+			sourceTree = "<group>";
+		};
+		3C5FCFF92AF6A5C7001810BB /* ApiError */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCFFA2AF6A5E0001810BB /* ApiError.swift */,
+				3C5FCFFC2AF6A5E9001810BB /* ErrorDTO.swift */,
+			);
+			path = ApiError;
+			sourceTree = "<group>";
+		};
+		3C5FCFFE2AF6A609001810BB /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FCFFF2AF6A61C001810BB /* ApiRequest.swift */,
+				3C5FD0012AF6A634001810BB /* ApiRequestClient.swift */,
+				3C5FD0032AF6A65E001810BB /* HttpMethod.swift */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		3C5FD0072AF6A851001810BB /* AppRequests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5FD0082AF6A898001810BB /* GetMealsRequest.swift */,
+				3C5FD00A2AF6A8AA001810BB /* GetMealDetailsRequest.swift */,
+			);
+			path = AppRequests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +385,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5FCFC22AF6A3B8001810BB /* ContentView.swift in Sources */,
-				3C5FCFC42AF6A3B8001810BB /* Item.swift in Sources */,
+				3C5FD0062AF6A6E7001810BB /* NetworkingConfig.swift in Sources */,
+				3C5FD00B2AF6A8AA001810BB /* GetMealDetailsRequest.swift in Sources */,
 				3C5FCFC02AF6A3B8001810BB /* FetchChallengeApp.swift in Sources */,
+				3C5FD0022AF6A634001810BB /* ApiRequestClient.swift in Sources */,
+				3C5FD0042AF6A65E001810BB /* HttpMethod.swift in Sources */,
+				3C5FCFF82AF6A565001810BB /* MealDetail.swift in Sources */,
+				3C5FD0092AF6A898001810BB /* GetMealsRequest.swift in Sources */,
+				3C1FF8432AF6E93600E80E8D /* FetchImageView.swift in Sources */,
+				3C5FCFFD2AF6A5E9001810BB /* ErrorDTO.swift in Sources */,
+				3C5FCFF62AF6A52C001810BB /* MealItem.swift in Sources */,
+				3C5FCFFB2AF6A5E0001810BB /* ApiError.swift in Sources */,
+				3C1FF8452AF6EA7E00E80E8D /* MealItemRow.swift in Sources */,
+				3C5FD00D2AF6ADCC001810BB /* MealDetailView.swift in Sources */,
+				3C5FCFF32AF6A465001810BB /* MealsListViewModel.swift in Sources */,
+				3C5FD0002AF6A61C001810BB /* ApiRequest.swift in Sources */,
+				3C5FCFF12AF6A45B001810BB /* MealsListView.swift in Sources */,
+				3C1FF8482AF6F01A00E80E8D /* RedactedPlaceholderHelpers.swift in Sources */,
+				3C5FD00F2AF6C390001810BB /* MealDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
